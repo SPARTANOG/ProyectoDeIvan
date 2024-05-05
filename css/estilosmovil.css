@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    font-family: "Lora", serif;
+    margin: auto;
+    padding: 1.25rem; /* 20px */
+    box-sizing: border-box;
+    max-width: 95%;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1.25rem; /* 20px */
+    text-align: center;
+  }
+  
+  nav {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 0.625rem; /* 10px */
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.25rem; /* 20px */
+    font-size: 1rem; /* 16px */
+  }
+  
+  /* Estilos para dispositivos móviles (mobile-first approach) */
+  body {
+    font-size: 1rem; /* 16px */
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  nav {
+    padding: 0.3125rem; /* 5px */
+    margin-left: 0;
+  }
+  
+  nav a {
+    margin: 0 0.625rem; /* 10px */
+    font-size: 0.875rem; /* 14px */
+  }
+  
+  .imagen,.imagen2,.hola,.blues,.soul, .hola,.jazz,.funk,.rock,.pop,.rap,.reggae,.regueton {
+    width: 70%;
+    height: auto;
+    margin: 1.25rem 20px; /* 20px */
+    border-radius: 10px;
+    align-items: center;
+  }
+  
+  /* Media query for larger screens */
+  @media screen and (min-width: 542px) {
+    /* Add styles for larger screens here */
+  }
+
+  #indice a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+#indice a:hover {
+    background-color: #ddd;
+}
+
+#indice.oculto {
+    opacity: 0;
+    visibility: hidden;
+}

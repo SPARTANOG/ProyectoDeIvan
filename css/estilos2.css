@@ -1,0 +1,39 @@
+body {
+    font-family: "Lora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    max-width: auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.title {
+    margin: 20px;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-weight: 800;
+}
+
+.texto {
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 2;
+}

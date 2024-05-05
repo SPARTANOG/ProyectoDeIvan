@@ -1,0 +1,210 @@
+body {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0%;
+    padding: 0px;
+    max-width: 99%;
+    overflow: auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.isamar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 10px;
+    z-index: 1000;
+
+}
+
+.titulo {
+    font-size: 2.5rem;
+    /* Tamaño del texto */
+    font-weight: 1000;
+    /* Grosor de la fuente (negrita) */
+    text-transform: uppercase;
+    /* Convertir el texto a mayúsculas */
+    letter-spacing: 2px;
+    /* Espaciado entre letras */
+    margin: -10px;
+    /* Eliminar margen por defecto del encabezado */
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 25px;
+
+}
+
+.xd {
+    margin-right: 8em;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 0px; /* Asegura que el contenido principal no se solape con la barra */
+    padding: 0px -10px;
+    display: inline-block;
+}
+
+h1,
+h2 {
+    margin-left: 30px;
+    text-align: center;
+}
+
+p {
+    margin-left: 30px;
+    text-align: justify;
+    max-width: 95%;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.ejemplo {
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 02%;
+}
+
+.imagen {
+    float: right;
+    /* Alinear a la derecha */
+    margin: 20px;
+    /* Margen para separar del texto */
+    margin-top: 60px;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    width: 400PX;
+    height: auto;
+}
+
+.imagen2 {
+    float: right;
+    /* Alinear a la derecha */
+    margin: 20px;
+    /* Margen para separar del texto */
+    margin-top: auto;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    width: auto;
+    height: 250px;
+}
+.hola {
+    float: right;
+    /* Alinear a la derecha */
+    margin: 20px;
+    /* Margen para separar del texto */
+    margin-top: auto;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    width: auto;
+    height: 300px;
+}
+ 
+.blues {
+    float: right;
+    /* Alinear a la derecha */
+    margin: 20px;
+    /* Margen para separar del texto */
+    margin-top: 10px;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    width: auto;
+    height: 200px;
+  
+}
+.mover {
+    margin-left: -300px;
+}
+
+.blues2 {
+    margin-right: 200px;
+}
+
+.soul {
+    float: left;
+    /* Alinear a la derecha */
+    margin: 20px;
+    /* Margen para separar del texto */
+    margin-top: 10px;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    width: auto;
+    height: 200px;
+}
+
+nav{
+    text-align: center;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 100px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#indice {
+    display: block;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    background-color: #f9f9f9a4;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+#indice a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+#indice a:hover {
+    background-color: #ddd;
+}
+
+#indice.oculto {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.funk, .rock,.pop,.rap,.reggae ,.regueton{
+    float: left;
+    /* Alinear a la derecha */
+    margin: 20px;
+    /* Margen para separar del texto */
+    margin-top: 10px;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    width: auto;
+    height: 200px;
+}

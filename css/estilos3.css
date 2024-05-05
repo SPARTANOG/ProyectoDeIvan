@@ -1,125 +1,126 @@
-body {
-    font-family: "Lora", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    margin: auto;
-    padding: auto;
-    box-sizing: border-box;
-    max-width: auto;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-}
-
-.title {
-    margin: 20px;
-}
-
-nav {
-    padding: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    margin: 0 10px;
-    font-weight: 800;
-}
-
-.texto {
-    margin-left: 20px;
-    text-align: justify;
-    margin-right: 20px;
-    font-size: 16px;
-    line-height: 2;
-}
-
-.red-social {
-    color: #3b5998;
-    /* Color azul de Facebook */
-    text-decoration: none;
-    /* Quitar subrayado del enlace */
-    display: inline-block;
-    /* Mostrar como bloque en línea */
-    margin-right: 10px;
-    /* Espacio a la derecha del enlace */
+@media screen and (min-width: 751px) {
+    body {
+        font-family: "Lora", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+    }
+    
+    .title {
+        margin: 20px;
+    }
+    
+    nav {
+        padding: 10px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+        margin: 0 10px;
+        font-weight: 800;
+    }
+    
+    .texto {
+        margin-left: 20px;
+        text-align: justify;
+        margin-right: 20px;
+        font-size: 16px;
+        line-height: 2;
+    }
+    
+    .red-social {
+        color: #3b5998;
+        /* Color azul de Facebook */
+        text-decoration: none;
+        /* Quitar subrayado del enlace */
+        display: inline-block;
+        /* Mostrar como bloque en línea */
+        margin-right: 10px;
+        /* Espacio a la derecha del enlace */
+        margin-left: 30px;
+        margin-top: 20px;
+        font-size: 200%;
+    }
+    
+    .red-socialig {
+        color: #e4405f; /* Color de Instagram */
+        text-decoration: none; /* Quitar subrayado del enlace */
+        display: inline-block; /* Mostrar como bloque en línea */
+        margin-right: 10px; /* Espacio a la derecha del enlace */
+        margin-left: 30px;
+        margin-top: 20px;
+        font-size: 200%;
+    }
+    
+    
+    .red-socialwp {
+        color: #25D366; /* Color de WhatsApp */
+        text-decoration: none; /* Quitar subrayado del enlace */
+        display: inline-block; /* Mostrar como bloque en línea */
+        margin-right: 10px; /* Espacio a la derecha del enlace */
     margin-left: 30px;
-    margin-top: 20px;
-    font-size: 200%;
+        margin-top: 20px;
+        font-size: 200%;
+    }
+    
+    .redes{
+        text-align: center;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    
+    footer {
+        background-color: #f8f8f8;
+        padding: 10px;
+        text-align: left;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    footer p {
+        margin: 0;
+        line-height: 2;
+    }
+    
+    .teba {
+        position: relative;
+        float: inline-end;
+        margin-top: -90px;
+        border-radius: 20px;
+        border-color: black;
+        border-width: 03px;
+        border-style: solid;
+        width: 100px;
+    }
+    
+    .columnas {
+        column-count: 2;
+        /* Divide en dos columnas */
+        column-gap: 20px;
+        /* Espacio entre columnas */
+    }
+    
+    .boton {
+        display: inline-block;
+        padding: 10px 30px;
+        background-color: #007bff; /* Color de fondo del botón */
+        color: white; /* Color del texto */
+        text-decoration: none; /* Quitar subrayado del enlace */
+        border-radius: 10px; /* Bordes redondeados */
+        margin-top: 14%;
+    }
 }
 
-.red-socialig {
-    color: #e4405f; /* Color de Instagram */
-    text-decoration: none; /* Quitar subrayado del enlace */
-    display: inline-block; /* Mostrar como bloque en línea */
-    margin-right: 10px; /* Espacio a la derecha del enlace */
-    margin-left: 30px;
-    margin-top: 20px;
-    font-size: 200%;
-}
 
-
-.red-socialwp {
-    color: #25D366; /* Color de WhatsApp */
-    text-decoration: none; /* Quitar subrayado del enlace */
-    display: inline-block; /* Mostrar como bloque en línea */
-    margin-right: 10px; /* Espacio a la derecha del enlace */
-margin-left: 30px;
-    margin-top: 20px;
-    font-size: 200%;
-}
-
-.redes{
-    text-align: center;
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-
-footer {
-    background-color: #f8f8f8;
-    padding: 10px;
-    text-align: left;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-    line-height: 2;
-}
-
-.teba {
-    position: relative;
-    float: inline-end;
-    margin-top: -90px;
-    border-radius: 20px;
-    border-color: black;
-    border-width: 03px;
-    border-style: solid;
-    width: 100px;
-}
-
-.columnas {
-    column-count: 2;
-    /* Divide en dos columnas */
-    column-gap: 20px;
-    /* Espacio entre columnas */
-}
-
-.boton {
-    display: inline-block;
-    padding: 10px 30px;
-    background-color: #007bff; /* Color de fondo del botón */
-    color: white; /* Color del texto */
-    text-decoration: none; /* Quitar subrayado del enlace */
-    border-radius: 10px; /* Bordes redondeados */
-    margin-top: 14%;
-}

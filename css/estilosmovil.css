@@ -105,12 +105,12 @@ footer p {
 .teba {
   position: relative;
   float: inline-end;
-  margin-top: -90px;
+  margin-top: -40px;
   border-radius: 20px;
   border-color: black;
   border-width: 03px;
   border-style: solid;
-  width: 100px;
+  width: 70px;
 }
 
 .columnas {

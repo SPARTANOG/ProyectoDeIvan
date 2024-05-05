@@ -1,0 +1,94 @@
+body {
+    font-family: "Lora", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.title {
+    margin: 10px;
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+    font-weight: 800;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.teba {
+    margin-top: -70px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 10px;
+}
+
+.columnas {
+    column-count: 1;
+    column-gap: 10px;
+}
+
+.red-social,
+.red-socialig,
+.red-socialwp {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 150%;
+}
+
+.red-socialig {
+    color: #000;
+}
+
+.red-socialwp {
+    color: #000;
+}
+
+.redes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}

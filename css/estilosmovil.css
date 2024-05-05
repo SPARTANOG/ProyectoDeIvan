@@ -55,7 +55,7 @@ body {
   }
   
   .imagen,.imagen2,.hola,.blues,.soul, .hola,.jazz,.funk,.rock,.pop,.rap,.reggae,.regueton {
-    width: 70%;
+    width: 50%;
     height: auto;
     margin: 1.25rem 20px; /* 20px */
     border-radius: 10px;
@@ -82,4 +82,55 @@ body {
 #indice.oculto {
     opacity: 0;
     visibility: hidden;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  flex-shrink: 0;
+  margin-left: -05%;
+}
+
+footer p {
+  margin: 0;
+  line-height: 2;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.teba {
+  position: relative;
+  float: inline-end;
+  margin-top: -90px;
+  border-radius: 20px;
+  border-color: black;
+  border-width: 03px;
+  border-style: solid;
+  width: 100px;
+}
+
+.columnas {
+  column-count: 2;
+  /* Divide en dos columnas */
+  column-gap: 20px;
+  /* Espacio entre columnas */
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  text-decoration: none; /* Quitar subrayado del enlace */
+  border-radius: 10px; /* Bordes redondeados */
+  margin-top: 14%;
+}
+
+.content {
+  flex: 1;
+  padding-bottom: 32%; /* Alto del pie de página */
 }

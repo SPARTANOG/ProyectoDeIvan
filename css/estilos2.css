@@ -37,3 +37,39 @@ nav a {
     font-size: 16px;
     line-height: 2;
 }
+.programar {
+    float: left;
+    /* Alinear a la derecha */
+    margin: 20px;
+    /* Margen para separar del texto */
+    margin-top: 10px;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    width: auto;
+    height: 200px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+    line-height: 2;
+}
+.teba {
+    position: relative;
+    float: inline-end;
+    margin-top: -90px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 03px;
+    border-style: solid;
+    width: 100px;
+}
